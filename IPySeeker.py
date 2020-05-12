@@ -92,14 +92,6 @@ def probeTargets(users, passwords, targets):
 				except requests.ConnectionError:
 					print ("[!] Connection error")
 					pass
-
-				#commandstring = "curl -m 10 -s -u %s:%s -n %s 2>/dev/null >> results.txt" %(currentuser, currentpass, currenttarget)
-				#print("[*] Login attempt as User: \"%s\" with Pass: \"%s\" on Target: \"%s\" " %(currentuser, currentpass, currenttarget))
-				#os.system(commandstring)
-				#status = requests.get(currenttarget)
-				#status = status.status_code
-			
-		
 	
 
 # Initializes main routine
